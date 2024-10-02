@@ -30,4 +30,27 @@ To set up the project locally, please follow these steps:
 ```bash
 git clone [repository_url]
 cd [repository_directory]
+```
 
+### Install Dependencies:
+
+Ensure you have Python and the required libraries installed. You can use pip to install OpenCV and any other necessary packages.
+```bash
+pip install opencv-python
+pip install numpy
+```
+
+### Run the Application:
+
+Execute the main script to start the vehicle detection system.
+```bash
+python main.py
+```
+
+## Contributing
+
+We welcome contributions to improve the project. Please fork the repository and create a pull request with your changes.
+
+## Acknowledgments
+
+We would like to thank the contributors of OpenCV and the creators of the SSD MobileNet model for their invaluable resources that made this project possible.
